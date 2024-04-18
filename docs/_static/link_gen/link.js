@@ -132,6 +132,7 @@ function changeTab(div) {
         content_branch.hidden = false;
     } else {
         hub.placeholder = "https://hub.example.com";
+        hub.value = "";
         hub_help_text.hidden = false;
         hub.labels[0].innerHTML = "JupyterHub URL";
         env_repo.labels[0].innerHTML = "Git Repository URL";
